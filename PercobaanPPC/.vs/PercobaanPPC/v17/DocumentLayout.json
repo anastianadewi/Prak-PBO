@@ -1,0 +1,513 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\percobaanppc\\model\\penyakitmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|solutionrelative:percobaanppc\\model\\penyakitmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|c:\\users\\lenovo\\downloads\\percobaanppc\\percobaanppc\\model\\kelurahanmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|solutionrelative:percobaanppc\\model\\kelurahanmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|c:\\users\\lenovo\\downloads\\percobaanppc\\percobaanppc\\penyakit.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|solutionrelative:percobaanppc\\penyakit.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|c:\\users\\lenovo\\downloads\\percobaanppc\\percobaanppc\\penyakit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|solutionrelative:percobaanppc\\penyakit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|c:\\users\\lenovo\\downloads\\percobaanppc\\percobaanppc\\penyakit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|solutionrelative:percobaanppc\\penyakit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|c:\\users\\lenovo\\downloads\\percobaanppc\\percobaanppc\\tkelurahan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|solutionrelative:percobaanppc\\tkelurahan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|c:\\users\\lenovo\\downloads\\percobaanppc\\percobaanppc\\tkelurahan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|solutionrelative:percobaanppc\\tkelurahan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\percobaanppc\\tkelurahan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|solutionrelative:percobaanppc\\tkelurahan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\percobaanppc\\tkecamatan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|solutionrelative:percobaanppc\\tkecamatan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\percobaanppc\\tkecamatan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|solutionrelative:percobaanppc\\tkecamatan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\percobaanppc\\tambah_kec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|solutionrelative:percobaanppc\\tambah_kec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\percobaanppc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|solutionrelative:percobaanppc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\percobaanppc\\model\\kecamatanmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|solutionrelative:percobaanppc\\model\\kecamatanmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\percobaanppc\\tkecamatan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|solutionrelative:percobaanppc\\tkecamatan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|c:\\users\\lenovo\\downloads\\percobaanppc\\percobaanppc\\tambah_kel.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|solutionrelative:percobaanppc\\tambah_kel.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|c:\\users\\lenovo\\downloads\\percobaanppc\\percobaanppc\\tambah_kec.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|solutionrelative:percobaanppc\\tambah_kec.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|c:\\users\\lenovo\\downloads\\percobaanppc\\percobaanppc\\tambah_kec.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|solutionrelative:percobaanppc\\tambah_kec.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|c:\\users\\lenovo\\downloads\\percobaanppc\\percobaanppc\\model\\recapmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|solutionrelative:percobaanppc\\model\\recapmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\percobaanppc\\tkecamatan.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|solutionrelative:percobaanppc\\tkecamatan.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\percobaanppc\\other\\databaseconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|solutionrelative:percobaanppc\\other\\databaseconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\percobaanppc\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|solutionrelative:percobaanppc\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\percobaanppc\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|solutionrelative:percobaanppc\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\percobaanppc\\edit_kec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|solutionrelative:percobaanppc\\edit_kec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\percobaanppc\\tambah_kec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|solutionrelative:percobaanppc\\tambah_kec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\percobaanppc\\tdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|solutionrelative:percobaanppc\\tdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\percobaanppc\\splashscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|solutionrelative:percobaanppc\\splashscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\percobaanppc\\edit_kec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|solutionrelative:percobaanppc\\edit_kec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\percobaanppc\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|solutionrelative:percobaanppc\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\percobaanppc\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|solutionrelative:percobaanppc\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\percobaanppc\\splashscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E320447F-6D93-42D3-97B1-1BE03EED14F2}|PercobaanPPC\\PercobaanPPC.csproj|solutionrelative:percobaanppc\\splashscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 245,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "penyakit.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\penyakit.cs",
+              "RelativeDocumentMoniker": "PercobaanPPC\\penyakit.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\penyakit.cs [Design]",
+              "RelativeToolTip": "PercobaanPPC\\penyakit.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T02:01:44.341Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "penyakit.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\penyakit.Designer.cs",
+              "RelativeDocumentMoniker": "PercobaanPPC\\penyakit.Designer.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\penyakit.Designer.cs",
+              "RelativeToolTip": "PercobaanPPC\\penyakit.Designer.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAkwEsAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T02:03:29.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PenyakitModel.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\model\\PenyakitModel.cs",
+              "RelativeDocumentMoniker": "PercobaanPPC\\model\\PenyakitModel.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\model\\PenyakitModel.cs",
+              "RelativeToolTip": "PercobaanPPC\\model\\PenyakitModel.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T14:34:03.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "tkelurahan.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\tkelurahan.cs",
+              "RelativeDocumentMoniker": "PercobaanPPC\\tkelurahan.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\tkelurahan.cs",
+              "RelativeToolTip": "PercobaanPPC\\tkelurahan.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAgwDkAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T01:32:38.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "penyakit.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\penyakit.cs",
+              "RelativeDocumentMoniker": "PercobaanPPC\\penyakit.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\penyakit.cs",
+              "RelativeToolTip": "PercobaanPPC\\penyakit.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAxwBUAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T02:01:47.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KelurahanModel.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\model\\KelurahanModel.cs",
+              "RelativeDocumentMoniker": "PercobaanPPC\\model\\KelurahanModel.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\model\\KelurahanModel.cs",
+              "RelativeToolTip": "PercobaanPPC\\model\\KelurahanModel.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T02:06:18.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "tkelurahan.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\tkelurahan.Designer.cs",
+              "RelativeDocumentMoniker": "PercobaanPPC\\tkelurahan.Designer.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\tkelurahan.Designer.cs",
+              "RelativeToolTip": "PercobaanPPC\\tkelurahan.Designer.cs",
+              "ViewState": "AQIAAIUAAAAAAAAAAAAIwJYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T01:32:34.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "tkelurahan.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\tkelurahan.cs",
+              "RelativeDocumentMoniker": "PercobaanPPC\\tkelurahan.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\tkelurahan.cs [Design]",
+              "RelativeToolTip": "PercobaanPPC\\tkelurahan.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T12:43:43.062Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "tkecamatan.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\tkecamatan.cs",
+              "RelativeDocumentMoniker": "PercobaanPPC\\tkecamatan.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\tkecamatan.cs",
+              "RelativeToolTip": "PercobaanPPC\\tkecamatan.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T05:53:15.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "tkecamatan.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\tkecamatan.cs",
+              "RelativeDocumentMoniker": "PercobaanPPC\\tkecamatan.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\tkecamatan.cs [Design]",
+              "RelativeToolTip": "PercobaanPPC\\tkecamatan.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T05:16:17.864Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "tambah_kec.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\tambah_kec.cs",
+              "RelativeDocumentMoniker": "PercobaanPPC\\tambah_kec.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\tambah_kec.cs [Design]",
+              "RelativeToolTip": "PercobaanPPC\\tambah_kec.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T06:54:31.772Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\Program.cs",
+              "RelativeDocumentMoniker": "PercobaanPPC\\Program.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\Program.cs",
+              "RelativeToolTip": "PercobaanPPC\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T10:58:58.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "KecamatanModel.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\model\\KecamatanModel.cs",
+              "RelativeDocumentMoniker": "PercobaanPPC\\model\\KecamatanModel.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\model\\KecamatanModel.cs",
+              "RelativeToolTip": "PercobaanPPC\\model\\KecamatanModel.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAjwF4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T11:12:25.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "tkecamatan.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\tkecamatan.Designer.cs",
+              "RelativeDocumentMoniker": "PercobaanPPC\\tkecamatan.Designer.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\tkecamatan.Designer.cs",
+              "RelativeToolTip": "PercobaanPPC\\tkecamatan.Designer.cs",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAYwHYAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T13:42:30.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "tambah_kel.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\tambah_kel.Designer.cs",
+              "RelativeDocumentMoniker": "PercobaanPPC\\tambah_kel.Designer.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\tambah_kel.Designer.cs",
+              "RelativeToolTip": "PercobaanPPC\\tambah_kel.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T01:31:40.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "tambah_kec.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\tambah_kec.Designer.cs",
+              "RelativeDocumentMoniker": "PercobaanPPC\\tambah_kec.Designer.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\tambah_kec.Designer.cs",
+              "RelativeToolTip": "PercobaanPPC\\tambah_kec.Designer.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T01:31:15.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "tambah_kec.resx",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\tambah_kec.resx",
+              "RelativeDocumentMoniker": "PercobaanPPC\\tambah_kec.resx",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\tambah_kec.resx",
+              "RelativeToolTip": "PercobaanPPC\\tambah_kec.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-11T01:31:12.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RecapModel.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\model\\RecapModel.cs",
+              "RelativeDocumentMoniker": "PercobaanPPC\\model\\RecapModel.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\model\\RecapModel.cs",
+              "RelativeToolTip": "PercobaanPPC\\model\\RecapModel.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAkwF0AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T00:32:58.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DatabaseConfig.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\other\\DatabaseConfig.cs",
+              "RelativeDocumentMoniker": "PercobaanPPC\\other\\DatabaseConfig.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\other\\DatabaseConfig.cs",
+              "RelativeToolTip": "PercobaanPPC\\other\\DatabaseConfig.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T10:47:40.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "tkecamatan.resx",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\tkecamatan.resx",
+              "RelativeDocumentMoniker": "PercobaanPPC\\tkecamatan.resx",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\tkecamatan.resx",
+              "RelativeToolTip": "PercobaanPPC\\tkecamatan.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-02T13:42:27.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "login.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\login.cs",
+              "RelativeDocumentMoniker": "PercobaanPPC\\login.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\login.cs",
+              "RelativeToolTip": "PercobaanPPC\\login.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T10:59:37.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\login.cs",
+              "RelativeDocumentMoniker": "PercobaanPPC\\login.cs",
+              "ToolTip": "C:\\Users\\muham\\OneDrive\\Diploma 3\\Semester 4\\PBO\\PercobaanPPC\\PercobaanPPC\\login.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\muham\\OneDrive\\Diploma 3\\Semester 4\\PBO\\PercobaanPPC\\PercobaanPPC\\login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T10:59:34.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "edit_kec.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\edit_kec.cs",
+              "RelativeDocumentMoniker": "PercobaanPPC\\edit_kec.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\edit_kec.cs",
+              "RelativeToolTip": "PercobaanPPC\\edit_kec.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAApwBMAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T10:22:22.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "tdashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\tdashboard.cs",
+              "RelativeDocumentMoniker": "PercobaanPPC\\tdashboard.cs",
+              "ToolTip": "C:\\Users\\muham\\OneDrive\\Diploma 3\\Semester 4\\PBO\\PercobaanPPC\\PercobaanPPC\\tdashboard.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\muham\\OneDrive\\Diploma 3\\Semester 4\\PBO\\PercobaanPPC\\PercobaanPPC\\tdashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T07:32:03.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "tambah_kec.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\tambah_kec.cs",
+              "RelativeDocumentMoniker": "PercobaanPPC\\tambah_kec.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\tambah_kec.cs",
+              "RelativeToolTip": "PercobaanPPC\\tambah_kec.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAuwBQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T08:52:30.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "splashscreen.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\splashscreen.cs",
+              "RelativeDocumentMoniker": "PercobaanPPC\\splashscreen.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\splashscreen.cs",
+              "RelativeToolTip": "PercobaanPPC\\splashscreen.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAxwBwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T14:08:21.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "edit_kec.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\edit_kec.cs",
+              "RelativeDocumentMoniker": "PercobaanPPC\\edit_kec.cs",
+              "ToolTip": "C:\\Users\\muham\\OneDrive\\Diploma 3\\Semester 4\\PBO\\PercobaanPPC\\PercobaanPPC\\edit_kec.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\muham\\OneDrive\\Diploma 3\\Semester 4\\PBO\\PercobaanPPC\\PercobaanPPC\\edit_kec.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T07:04:38.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "dashboard.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\dashboard.cs",
+              "RelativeDocumentMoniker": "PercobaanPPC\\dashboard.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\dashboard.cs",
+              "RelativeToolTip": "PercobaanPPC\\dashboard.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAswBQAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T04:09:46.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "dashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\dashboard.cs",
+              "RelativeDocumentMoniker": "PercobaanPPC\\dashboard.cs",
+              "ToolTip": "C:\\Users\\muham\\OneDrive\\Diploma 3\\Semester 4\\PBO\\PercobaanPPC\\PercobaanPPC\\dashboard.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\muham\\OneDrive\\Diploma 3\\Semester 4\\PBO\\PercobaanPPC\\PercobaanPPC\\dashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T14:13:26.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "splashscreen.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\PercobaanPPC\\PercobaanPPC\\splashscreen.cs",
+              "RelativeDocumentMoniker": "PercobaanPPC\\splashscreen.cs",
+              "ToolTip": "C:\\Users\\muham\\OneDrive\\Diploma 3\\Semester 4\\PBO\\PercobaanPPC\\PercobaanPPC\\splashscreen.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\muham\\OneDrive\\Diploma 3\\Semester 4\\PBO\\PercobaanPPC\\PercobaanPPC\\splashscreen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T13:47:47.922Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
