@@ -36,7 +36,7 @@ namespace PercobaanPPC.model
             get { return name; }
         }
 
-        int save()
+        public int save()
         {
             int result = -1;
             query = $"insert into disease_tbl(name) values('{name}')";
@@ -53,7 +53,7 @@ namespace PercobaanPPC.model
             }
             return result;
         }
-        int update()
+        public int update()
         {
             int result = -1;
             query = $"update disease_tbl set name='{name}' where id={id}";
@@ -71,7 +71,7 @@ namespace PercobaanPPC.model
             }
             return result;
         }
-        int delete()
+        public int delete()
         {
             int result = -1;
             query = $"delete from disease_tbl where id={id}";

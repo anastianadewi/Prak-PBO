@@ -50,7 +50,7 @@ namespace PercobaanPPC.model
             set { total = value; }
         }
 
-        int save()
+        public int save()
         {
             int result = -1;
             query = $"insert into recap_tbl(kelurahan_id, penyakit_id, total) values ({kelurahan}, {penyakit}, {total})";
@@ -71,7 +71,7 @@ namespace PercobaanPPC.model
         }
 
 
-        int edit()
+        public int edit()
         {
             int result = -1;
             query = $"update recap_tbl set total = {total} where id={id}";
@@ -91,7 +91,7 @@ namespace PercobaanPPC.model
             return result;
         }
 
-        int delete()
+        public int delete()
         {
             int result = -1;
             query = $"delete from recap_tbl where id={id}";
@@ -108,19 +108,19 @@ namespace PercobaanPPC.model
             return result;
         }
 
-        DataTable getAll()
+        public DataTable getAll()
         {
             query = $"select kecamatan.name, kelurahan.name, penyakit.name, recap.total from recap_tbl recap join kelurahan_tbl kelurahan on recap.kelurahan_id = kelurahan.id join kecamatan_tbl kecamatan on kelurahan.kecamatan_id = kecamatan.id join disease_tbl penyakit on recap.penyakit_id = penyakit.id order by recap.total";
             tmp = con.execQuery(query);
             return tmp;
         }
-        DataTable getAllByKelurahan()
+        public DataTable getAllByKelurahan()
         {
             query = $"select kecamatan.name, kelurahan.name, penyakit.name, recap.total from recap_tbl recap join kelurahan_tbl kelurahan on recap.kelurahan_id = kelurahan.id join kecamatan_tbl kecamatan on kelurahan.kecamatan_id = kecamatan.id join disease_tbl penyakit on recap.penyakit_id = penyakit.id where recap.kelurahan_id={kelurahan} order by recap.total";
             tmp = con.execQuery(query);
             return tmp;
         }
-        DataTable getAllByPenyakit()
+        public DataTable getAllByPenyakit()
         {
             query = $"select kecamatan.name, kelurahan.name, penyakit.name, recap.total from recap_tbl recap join kelurahan_tbl kelurahan on recap.kelurahan_id = kelurahan.id join kecamatan_tbl kecamatan on kelurahan.kecamatan_id = kecamatan.id join disease_tbl penyakit on recap.penyakit_id = penyakit.id where penyakit.id={penyakit} order by recap.total";
             tmp = con.execQuery(query);

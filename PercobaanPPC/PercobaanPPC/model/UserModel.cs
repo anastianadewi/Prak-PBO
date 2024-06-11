@@ -56,7 +56,7 @@ namespace PercobaanPPC.model
         }
 
 
-        int save()
+        public int save()
         {
             int result = -1;
             query = $"insert into user_tbl(name, username, password) values('{name}', '{username}', '{password}')";
@@ -76,7 +76,7 @@ namespace PercobaanPPC.model
             return result;
         }
 
-        int update()
+        public int update()
         {
             int result = -1;
             query = $"update user_tbl set name = '{name}', username = '{username}',password = '{password}'where id={id}";
@@ -93,7 +93,7 @@ namespace PercobaanPPC.model
             return result;
         }
 
-        int delete()
+        public int delete()
         {
             int result = -1;
             query = $"delete from user_tbl where id={id}";

@@ -39,7 +39,7 @@ namespace PercobaanPPC.model
             get { return Nama; }
         }
 
-        int save()
+        public int save()
         {
             int result = -1;
             query = $"insert into kecamatan_tbl(name) values('{name}')";
@@ -58,7 +58,7 @@ namespace PercobaanPPC.model
             return result;
         }
 
-        int update()
+        public int update()
         {
             int result = -1;
             query = $"update kecamatan_tbl set name = '{name}' where id={id}";
@@ -75,7 +75,7 @@ namespace PercobaanPPC.model
             return result;
         }
 
-        int delete()
+        public int delete()
         {
             int result = -1;
             query = $"delete from kecamatan_tbl where id={id}";

@@ -29,24 +29,24 @@ namespace PercobaanPPC.model
             query = String.Empty;
         }
 
-        ulong Id
+        public ulong Id
         {
             set { id = value; }
             get { return id; }
         }
-        string Name
+        public string Name
         {
             set { name = value; }
             get { return name; }
         }
 
-        ulong KecamatanId
+        public ulong KecamatanId
         {
             set { kecamatanId = value; }
             get { return kecamatanId;}
         }
 
-        int save()
+        public int save()
         {
             int result = -1;
             query = $"insert into kelurahan_tbl(name, kecamatan_id) values('{name}', {kecamatanId})";
@@ -66,7 +66,7 @@ namespace PercobaanPPC.model
             return result;
         }
 
-        int update()
+        public int update()
         {
             int result = -1;
             query = $"update kelurahan_tbl set name = '{name}', kecamatan_id = {kecamatanId} where id={id}";
@@ -83,7 +83,7 @@ namespace PercobaanPPC.model
             return result;
         }
 
-        int delete()
+        public int delete()
         {
             int result = -1;
             query = $"delete from kelurahan_tbl where id={id}";
