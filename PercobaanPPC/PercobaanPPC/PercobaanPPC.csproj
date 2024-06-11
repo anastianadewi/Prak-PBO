@@ -117,6 +117,7 @@
     <Compile Include="model\KelurahanModel.cs" />
     <Compile Include="model\PenyakitModel.cs" />
     <Compile Include="model\RecapModel.cs" />
+    <Compile Include="model\UserModel.cs" />
     <Compile Include="other\DatabaseConfig.cs" />
     <Compile Include="penyakit.cs">
       <SubType>Form</SubType>
