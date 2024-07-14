@@ -130,3 +130,132 @@ C:\Users\LENOVO\Downloads\PercobaanPPC\PercobaanPPC\obj\Debug\PercobaanPPC.user.
 C:\Users\LENOVO\Downloads\PercobaanPPC\PercobaanPPC\obj\Debug\PercobaanPPC.csproj.GenerateResource.cache
 C:\Users\LENOVO\Downloads\PercobaanPPC\PercobaanPPC\obj\Debug\PercobaanPPC.csproj.CoreCompileInputs.cache
 C:\Users\LENOVO\Downloads\PercobaanPPC\PercobaanPPC\obj\Debug\Percobaa.BAB2908B.Up2Date
+C:\Users\LENOVO\Downloads\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\PercobaanPPC.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Downloads\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\PercobaanPPC.edit_kec.resources
+C:\Users\LENOVO\Downloads\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\WindowsFormsApp1.edit_kel.resources
+C:\Users\LENOVO\Downloads\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\WindowsFormsApp1.login.resources
+C:\Users\LENOVO\Downloads\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\WindowsFormsApp1.penyakit.resources
+C:\Users\LENOVO\Downloads\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\WindowsFormsApp1.rekap_penyakit.resources
+C:\Users\LENOVO\Downloads\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\PercobaanPPC.splashscreen.resources
+C:\Users\LENOVO\Downloads\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\PercobaanPPC.dashboard.resources
+C:\Users\LENOVO\Downloads\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\PercobaanPPC.Properties.Resources.resources
+C:\Users\LENOVO\Downloads\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\PercobaanPPC.tambah_kec.resources
+C:\Users\LENOVO\Downloads\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\WindowsFormsApp1.tambah_kel.resources
+C:\Users\LENOVO\Downloads\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\PercobaanPPC.tdashboard.resources
+C:\Users\LENOVO\Downloads\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\PercobaanPPC.tkecamatan.resources
+C:\Users\LENOVO\Downloads\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\WindowsFormsApp1.tkelurahan.resources
+C:\Users\LENOVO\Downloads\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\PercobaanPPC.user.resources
+C:\Users\LENOVO\Downloads\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\PercobaanPPC.csproj.GenerateResource.cache
+C:\Users\LENOVO\Downloads\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\PercobaanPPC.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Downloads\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\PercobaanPPC.exe
+C:\Users\LENOVO\Downloads\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\PercobaanPPC.pdb
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\PercobaanPPC.csproj.AssemblyReference.cache
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\PercobaanPPC.edit_kec.resources
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\WindowsFormsApp1.edit_kel.resources
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\WindowsFormsApp1.login.resources
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\WindowsFormsApp1.penyakit.resources
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\WindowsFormsApp1.rekap_penyakit.resources
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\PercobaanPPC.splashscreen.resources
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\PercobaanPPC.dashboard.resources
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\PercobaanPPC.Properties.Resources.resources
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\PercobaanPPC.tambah_kec.resources
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\WindowsFormsApp1.tambah_kel.resources
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\PercobaanPPC.tdashboard.resources
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\PercobaanPPC.tkecamatan.resources
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\WindowsFormsApp1.tkelurahan.resources
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\PercobaanPPC.user.resources
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\PercobaanPPC.csproj.GenerateResource.cache
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\PercobaanPPC.csproj.CoreCompileInputs.cache
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\PercobaanPPC.exe
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\PercobaanPPC.pdb
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\PercobaanPPC.exe.config
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\PercobaanPPC.exe
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\PercobaanPPC.pdb
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\Npgsql.dll
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\System.Buffers.dll
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\System.Collections.Immutable.dll
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\System.Memory.dll
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\System.Numerics.Vectors.dll
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\System.Text.Encodings.Web.dll
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\System.Text.Json.dll
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\System.Threading.Channels.dll
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\System.ValueTuple.dll
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\Npgsql.xml
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\System.Buffers.xml
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\System.Collections.Immutable.xml
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\System.Memory.xml
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\System.Numerics.Vectors.xml
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\System.Text.Encodings.Web.xml
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\System.Text.Json.xml
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\System.Threading.Channels.xml
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\System.ValueTuple.xml
+C:\Teknik Informatika\Prak.PBO\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\Percobaa.BAB2908B.Up2Date
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\PercobaanPPC.csproj.AssemblyReference.cache
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\PercobaanPPC.edit_kec.resources
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\WindowsFormsApp1.edit_kel.resources
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\WindowsFormsApp1.login.resources
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\WindowsFormsApp1.penyakit.resources
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\WindowsFormsApp1.rekap_penyakit.resources
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\PercobaanPPC.splashscreen.resources
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\PercobaanPPC.dashboard.resources
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\PercobaanPPC.Properties.Resources.resources
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\PercobaanPPC.tambah_kec.resources
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\WindowsFormsApp1.tambah_kel.resources
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\PercobaanPPC.tdashboard.resources
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\PercobaanPPC.tkecamatan.resources
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\WindowsFormsApp1.tkelurahan.resources
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\PercobaanPPC.user.resources
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\PercobaanPPC.csproj.GenerateResource.cache
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\PercobaanPPC.csproj.CoreCompileInputs.cache
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\PercobaanPPC.exe.config
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\PercobaanPPC.exe
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\PercobaanPPC.pdb
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\Microsoft.Bcl.HashCode.dll
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\Npgsql.dll
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\System.Buffers.dll
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\System.Collections.Immutable.dll
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\System.Memory.dll
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\System.Numerics.Vectors.dll
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\System.Text.Encodings.Web.dll
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\System.Text.Json.dll
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\System.Threading.Channels.dll
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\System.ValueTuple.dll
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\Microsoft.Bcl.HashCode.xml
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\Npgsql.xml
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\System.Buffers.xml
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\System.Collections.Immutable.xml
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\System.Memory.xml
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\System.Numerics.Vectors.xml
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\System.Text.Encodings.Web.xml
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\System.Text.Json.xml
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\System.Threading.Channels.xml
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\bin\Debug\System.ValueTuple.xml
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\Percobaa.BAB2908B.Up2Date
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\PercobaanPPC.exe
+D:\Dicoding Review\Prak-PBO\PercobaanPPC\PercobaanPPC\obj\Debug\PercobaanPPC.pdb

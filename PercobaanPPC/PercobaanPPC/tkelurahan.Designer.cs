@@ -35,43 +35,58 @@
             this.btn_hapus = new System.Windows.Forms.Button();
             this.btn_tambah = new System.Windows.Forms.Button();
             this.tblKelurahan = new System.Windows.Forms.DataGridView();
-            this.c_id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.c_kecamatan = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             ((System.ComponentModel.ISupportInitialize)(this.tblKelurahan)).BeginInit();
+            this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(33, 12);
+            this.tableLayoutPanel1.SetColumnSpan(this.label1, 4);
+            this.label1.Font = new System.Drawing.Font("Plus Jakarta Sans SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(2, 0);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(209, 32);
+            this.label1.Size = new System.Drawing.Size(127, 27);
             this.label1.TabIndex = 0;
             this.label1.Text = "Data Kelurahan";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(33, 71);
+            this.tableLayoutPanel1.SetColumnSpan(this.label2, 4);
+            this.label2.Font = new System.Drawing.Font("Plus Jakarta Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(2, 27);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(169, 25);
+            this.label2.Size = new System.Drawing.Size(150, 27);
             this.label2.TabIndex = 1;
             this.label2.Text = "Cari dengan nama";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(33, 100);
+            this.tableLayoutPanel1.SetColumnSpan(this.textBox1, 4);
+            this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBox1.Font = new System.Drawing.Font("Plus Jakarta Sans", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(2, 56);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(832, 26);
+            this.textBox1.Size = new System.Drawing.Size(752, 24);
             this.textBox1.TabIndex = 2;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // btn_edit
             // 
-            this.btn_edit.Location = new System.Drawing.Point(598, 140);
+            this.btn_edit.AutoSize = true;
+            this.btn_edit.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btn_edit.Font = new System.Drawing.Font("Plus Jakarta Sans", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_edit.Location = new System.Drawing.Point(573, 84);
+            this.btn_edit.Margin = new System.Windows.Forms.Padding(2);
             this.btn_edit.Name = "btn_edit";
-            this.btn_edit.Size = new System.Drawing.Size(84, 37);
+            this.btn_edit.Size = new System.Drawing.Size(45, 32);
             this.btn_edit.TabIndex = 3;
             this.btn_edit.Text = "Edit";
             this.btn_edit.UseVisualStyleBackColor = true;
@@ -79,75 +94,112 @@
             // 
             // btn_hapus
             // 
-            this.btn_hapus.Location = new System.Drawing.Point(690, 140);
+            this.btn_hapus.AutoSize = true;
+            this.btn_hapus.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btn_hapus.Font = new System.Drawing.Font("Plus Jakarta Sans", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_hapus.Location = new System.Drawing.Point(622, 84);
+            this.btn_hapus.Margin = new System.Windows.Forms.Padding(2);
             this.btn_hapus.Name = "btn_hapus";
-            this.btn_hapus.Size = new System.Drawing.Size(84, 37);
+            this.btn_hapus.Size = new System.Drawing.Size(60, 32);
             this.btn_hapus.TabIndex = 4;
             this.btn_hapus.Text = "Hapus";
             this.btn_hapus.UseVisualStyleBackColor = true;
+            this.btn_hapus.Click += new System.EventHandler(this.btn_hapus_Click);
             // 
             // btn_tambah
             // 
-            this.btn_tambah.Location = new System.Drawing.Point(780, 140);
+            this.btn_tambah.AutoSize = true;
+            this.btn_tambah.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btn_tambah.Font = new System.Drawing.Font("Plus Jakarta Sans", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_tambah.Location = new System.Drawing.Point(686, 84);
+            this.btn_tambah.Margin = new System.Windows.Forms.Padding(2);
             this.btn_tambah.Name = "btn_tambah";
-            this.btn_tambah.Size = new System.Drawing.Size(84, 37);
+            this.btn_tambah.Size = new System.Drawing.Size(68, 32);
             this.btn_tambah.TabIndex = 5;
             this.btn_tambah.Text = "Tambah";
             this.btn_tambah.UseVisualStyleBackColor = true;
             this.btn_tambah.Click += new System.EventHandler(this.btn_tambah_Click);
             // 
-            // dataGridView1
+            // tblKelurahan
             // 
             this.tblKelurahan.AllowUserToAddRows = false;
             this.tblKelurahan.AllowUserToDeleteRows = false;
+            this.tblKelurahan.BackgroundColor = System.Drawing.Color.LightCyan;
             this.tblKelurahan.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.tblKelurahan.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.c_id,
-            this.c_kecamatan});
-            this.tblKelurahan.Location = new System.Drawing.Point(33, 185);
-            this.tblKelurahan.Name = "dataGridView1";
+            this.id,
+            this.name});
+            this.tableLayoutPanel1.SetColumnSpan(this.tblKelurahan, 4);
+            this.tblKelurahan.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tblKelurahan.Location = new System.Drawing.Point(2, 120);
+            this.tblKelurahan.Margin = new System.Windows.Forms.Padding(2);
+            this.tblKelurahan.Name = "tblKelurahan";
             this.tblKelurahan.ReadOnly = true;
+            this.tblKelurahan.RowHeadersVisible = false;
             this.tblKelurahan.RowHeadersWidth = 51;
             this.tblKelurahan.RowTemplate.Height = 24;
-            this.tblKelurahan.Size = new System.Drawing.Size(831, 188);
+            this.tblKelurahan.Size = new System.Drawing.Size(752, 438);
             this.tblKelurahan.TabIndex = 6;
             // 
-            // c_id
+            // id
             // 
-            this.c_id.DataPropertyName = "id";
-            this.c_id.HeaderText = "ID";
-            this.c_id.MinimumWidth = 6;
-            this.c_id.Name = "c_id";
-            this.c_id.ReadOnly = true;
-            this.c_id.Width = 125;
+            this.id.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.id.DataPropertyName = "id";
+            this.id.HeaderText = "ID";
+            this.id.MinimumWidth = 6;
+            this.id.Name = "id";
+            this.id.ReadOnly = true;
             // 
-            // c_kecamatan
+            // name
             // 
-            this.c_kecamatan.DataPropertyName = "name";
-            this.c_kecamatan.HeaderText = "Kelurahan";
-            this.c_kecamatan.MinimumWidth = 6;
-            this.c_kecamatan.Name = "c_kecamatan";
-            this.c_kecamatan.ReadOnly = true;
-            this.c_kecamatan.Width = 550;
+            this.name.DataPropertyName = "name";
+            this.name.HeaderText = "Kelurahan";
+            this.name.MinimumWidth = 6;
+            this.name.Name = "name";
+            this.name.ReadOnly = true;
+            this.name.Width = 550;
+            // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.ColumnCount = 4;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel1.Controls.Add(this.label1, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.tblKelurahan, 0, 4);
+            this.tableLayoutPanel1.Controls.Add(this.label2, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.btn_tambah, 3, 3);
+            this.tableLayoutPanel1.Controls.Add(this.textBox1, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.btn_hapus, 2, 3);
+            this.tableLayoutPanel1.Controls.Add(this.btn_edit, 1, 3);
+            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 5;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(756, 560);
+            this.tableLayoutPanel1.TabIndex = 7;
             // 
             // tkelurahan
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(900, 563);
-            this.Controls.Add(this.tblKelurahan);
-            this.Controls.Add(this.btn_tambah);
-            this.Controls.Add(this.btn_hapus);
-            this.Controls.Add(this.btn_edit);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.BackColor = System.Drawing.Color.LightCyan;
+            this.ClientSize = new System.Drawing.Size(756, 560);
+            this.Controls.Add(this.tableLayoutPanel1);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "tkelurahan";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.tkelurahan_Load);
             ((System.ComponentModel.ISupportInitialize)(this.tblKelurahan)).EndInit();
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -160,8 +212,9 @@
         private System.Windows.Forms.Button btn_hapus;
         private System.Windows.Forms.Button btn_tambah;
         private System.Windows.Forms.DataGridView tblKelurahan;
-        private System.Windows.Forms.DataGridViewTextBoxColumn c_id;
-        private System.Windows.Forms.DataGridViewTextBoxColumn c_kecamatan;
+        private System.Windows.Forms.DataGridViewTextBoxColumn id;
+        private System.Windows.Forms.DataGridViewTextBoxColumn name;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
     }
 }
 

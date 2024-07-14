@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PercobaanPPC.model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,19 @@ namespace PercobaanPPC
 {
     public partial class edit_kec : Form
     {
-        public edit_kec()
+        KecamatanModel model = new KecamatanModel();
+        private ulong id; // Variabel untuk menyimpan ID
+        public edit_kec(ulong id, string name)
         {
             InitializeComponent();
+
+            // Simpan ID yang diterima dari form sebelumnya
+            this.id = id;
+
+            // Tampilkan data pada form
+            tbId.Text = id.ToString();
+            tbName.Text = name;
+
         }
 
         //BUTTON KEMBALI
@@ -36,6 +47,45 @@ namespace PercobaanPPC
                 // Menampilkan form tambah_kec
                 kecamatan.Show();
             }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            // Dapatkan nilai yang diperbarui dari kontrol
+            string namaBaru = tbName.Text.Trim();
+
+            // Log nilai sebelum update
+            Console.WriteLine($"Updating kecamatan with ID: {id}, Name: {namaBaru}");
+
+            // Perbarui nilai name dalam model
+            model.Nama = namaBaru;
+
+            // Perbarui data menggunakan model
+            model.Id = id; // Gunakan ID yang disimpan
+            int result = model.update();
+
+            // Periksa hasil pembaruan
+            if (result > 0)
+            {
+                MessageBox.Show("Data berhasil diperbarui.", "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                // Kembali ke form sebelumnya
+                tkecamatan kecamatan = new tkecamatan();
+                kecamatan.TopLevel = false;
+                kecamatan.FormBorderStyle = FormBorderStyle.None;
+                this.Controls.Clear();
+                this.Controls.Add(kecamatan);
+                kecamatan.Show();
+            }
+            else
+            {
+                MessageBox.Show("Gagal memperbarui data.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void edit_kec_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -1,9 +1,12 @@
-﻿using System;
+﻿using PercobaanPPC;
+using PercobaanPPC.model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -12,7 +15,7 @@ namespace WindowsFormsApp1
 {
     public partial class tambah_kel : Form
     {
-   
+        private KelurahanModel model = new KelurahanModel();
 
         // Constructor dengan parameter tkelurahan
         public tambah_kel()
@@ -47,7 +50,31 @@ namespace WindowsFormsApp1
         private void button1_Click(object sender, EventArgs e)
         {
             // Lakukan proses penyimpanan atau tindakan yang diperlukan di sini
+            // Ambil nama kecamatan dari textbox
+            string name = tbName.Text.Trim();
 
+            // Set nama kecamatan di model
+            model.Nama = name;
+
+            // Simpan kecamatan ke database
+            int result = model.save();
+
+            if (result > 0)
+            {
+                MessageBox.Show("Data kecamatan berhasil disimpan.", "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                // Kembali ke form tkecamatan setelah berhasil disimpan
+                tkelurahan kelurahan = new tkelurahan();
+                kelurahan.TopLevel = false;
+                kelurahan.FormBorderStyle = FormBorderStyle.None;
+                this.Controls.Clear();
+                this.Controls.Add(kelurahan);
+                kelurahan.Show();
+            }
+            else
+            {
+                MessageBox.Show("Gagal menyimpan data kecamatan.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

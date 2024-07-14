@@ -15,11 +15,10 @@ namespace PercobaanPPC.model
         private string name;
         private DatabaseConfig con;
         private string query;
-        private DataTable tmp;
 
-        public PenyakitModel(DatabaseConfig con)
+        public PenyakitModel()
         {
-            this.con = con;
+            this.con = new DatabaseConfig();
             id = 0;
             name = string.Empty;
         }
@@ -43,11 +42,12 @@ namespace PercobaanPPC.model
             try
             {
                 result = con.exec(query);
-                if(result < 0)
+                if (result < 0)
                 {
                     throw new Exception("Gagal menambahkan data");
                 }
-            }catch(Exception e)
+            }
+            catch (Exception e)
             {
                 Console.WriteLine(e.ToString());
             }
@@ -71,7 +71,7 @@ namespace PercobaanPPC.model
             }
             return result;
         }
-        public int delete()
+        public int delete(ulong id)
         {
             int result = -1;
             query = $"delete from disease_tbl where id={id}";
@@ -92,9 +92,17 @@ namespace PercobaanPPC.model
 
         public DataTable getAll()
         {
-            query = "select id, name from disease_tbl";
-            tmp = con.execQuery(query);
-            return tmp;
+            string query = "SELECT id, name FROM disease_tbl";
+
+            return con.execQuery(query);
+
+        }
+
+        public DataTable getPenyakitByName(string name)
+        {
+            query = $"select id, name from disease_tbl where name like '%{name}%'";
+            return con.execQuery(query);
         }
     }
 }
+

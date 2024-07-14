@@ -30,185 +30,112 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(dashboard));
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.timer3 = new System.Windows.Forms.Timer(this.components);
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.panelKecamatan = new System.Windows.Forms.Panel();
+            this.panelKelurahan = new System.Windows.Forms.Panel();
             this.panel5.SuspendLayout();
+            this.tableLayoutPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.tabControl1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
+            this.tableLayoutPanel2.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.DarkBlue;
-            this.panel1.Controls.Add(this.button5);
-            this.panel1.Controls.Add(this.button4);
-            this.panel1.Controls.Add(this.button3);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.panel4);
-            this.panel1.Controls.Add(this.panel3);
-            this.panel1.Controls.Add(this.panel2);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 450);
-            this.panel1.TabIndex = 0;
-            // 
-            // button5
-            // 
-            this.button5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(15, 330);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(170, 45);
-            this.button5.TabIndex = 8;
-            this.button5.Text = "Data User";
-            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
-            // 
-            // button4
-            // 
-            this.button4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(15, 285);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(170, 45);
-            this.button4.TabIndex = 7;
-            this.button4.Text = "Data Rekap Penyakit";
-            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // button3
-            // 
-            this.button3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(15, 240);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(170, 45);
-            this.button3.TabIndex = 6;
-            this.button3.Text = "Data Penyakit";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // button2
-            // 
-            this.button2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(15, 195);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(170, 45);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "Data Wilayah";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button1
-            // 
-            this.button1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(15, 150);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(170, 45);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Dashboard";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // panel4
-            // 
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel4.Location = new System.Drawing.Point(185, 150);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(15, 300);
-            this.panel4.TabIndex = 3;
-            // 
-            // panel3
-            // 
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel3.Location = new System.Drawing.Point(0, 150);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(15, 300);
-            this.panel3.TabIndex = 2;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.DarkBlue;
-            this.panel2.Controls.Add(this.pictureBox1);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(200, 150);
-            this.panel2.TabIndex = 1;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(59, 32);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(72, 79);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // panel5
             // 
-            this.panel5.BackColor = System.Drawing.Color.Navy;
-            this.panel5.Controls.Add(this.label1);
-            this.panel5.Controls.Add(this.label4);
-            this.panel5.Controls.Add(this.label3);
-            this.panel5.Controls.Add(this.label2);
+            this.panel5.BackColor = System.Drawing.Color.LightCyan;
+            this.panel5.Controls.Add(this.tableLayoutPanel1);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel5.Location = new System.Drawing.Point(200, 0);
+            this.panel5.Location = new System.Drawing.Point(0, 0);
+            this.panel5.Margin = new System.Windows.Forms.Padding(2);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(600, 150);
+            this.panel5.Size = new System.Drawing.Size(979, 98);
             this.panel5.TabIndex = 1;
+            // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.ColumnCount = 3;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.Controls.Add(this.pictureBox1, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.label1, 1, 2);
+            this.tableLayoutPanel1.Controls.Add(this.label2, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.label4, 2, 1);
+            this.tableLayoutPanel1.Controls.Add(this.label3, 1, 1);
+            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.Padding = new System.Windows.Forms.Padding(4);
+            this.tableLayoutPanel1.RowCount = 3;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(979, 98);
+            this.tableLayoutPanel1.TabIndex = 4;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.tableLayoutPanel1.SetColumnSpan(this.label2, 2);
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.Location = new System.Drawing.Point(58, 4);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 16);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(304, 23);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Persebaran Penyakit di Cilacap";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(6, 6);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.tableLayoutPanel1.SetRowSpan(this.pictureBox1, 3);
+            this.pictureBox1.Size = new System.Drawing.Size(48, 86);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(58, 60);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(39, 17);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "User :";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(89, 73);
+            this.label4.ForeColor = System.Drawing.Color.Black;
+            this.label4.Location = new System.Drawing.Point(107, 43);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(62, 21);
+            this.label4.Size = new System.Drawing.Size(45, 17);
             this.label4.TabIndex = 2;
             this.label4.Text = "label4";
             // 
@@ -216,28 +143,13 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(6, 73);
+            this.label3.ForeColor = System.Drawing.Color.Black;
+            this.label3.Location = new System.Drawing.Point(58, 43);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(62, 21);
+            this.label3.Size = new System.Drawing.Size(45, 17);
             this.label3.TabIndex = 1;
             this.label3.Text = "label3";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(6, 20);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(441, 34);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Persebaran Penyakit di Cilacap";
-            // 
-            // timer1
-            // 
-            this.timer1.Enabled = true;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // timer2
             // 
@@ -249,66 +161,145 @@
             this.timer3.Enabled = true;
             this.timer3.Tick += new System.EventHandler(this.timer3_Tick);
             // 
-            // panel6
+            // tabControl1
             // 
-            this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel6.Location = new System.Drawing.Point(200, 150);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(600, 300);
-            this.panel6.TabIndex = 2;
+            this.tabControl1.Controls.Add(this.tabPage1);
+            this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Controls.Add(this.tabPage3);
+            this.tabControl1.Controls.Add(this.tabPage4);
+            this.tabControl1.Controls.Add(this.tabPage5);
+            this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControl1.Font = new System.Drawing.Font("Plus Jakarta Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabControl1.Location = new System.Drawing.Point(0, 98);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(979, 434);
+            this.tabControl1.TabIndex = 0;
             // 
-            // label1
+            // tabPage1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(8, 111);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(56, 21);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "User :";
+            this.tabPage1.BackColor = System.Drawing.Color.LightCyan;
+            this.tabPage1.Font = new System.Drawing.Font("Plus Jakarta Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPage1.Location = new System.Drawing.Point(4, 33);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(868, 328);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "Dashboard";
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.BackColor = System.Drawing.Color.LightCyan;
+            this.tabPage2.Controls.Add(this.tableLayoutPanel2);
+            this.tabPage2.Location = new System.Drawing.Point(4, 33);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(971, 397);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Data Wilayah";
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.BackColor = System.Drawing.Color.LightCyan;
+            this.tabPage3.Location = new System.Drawing.Point(4, 33);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(868, 328);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Data Penyakit";
+            // 
+            // tabPage4
+            // 
+            this.tabPage4.BackColor = System.Drawing.Color.LightCyan;
+            this.tabPage4.Location = new System.Drawing.Point(4, 33);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Size = new System.Drawing.Size(868, 328);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "Data Rekap";
+            // 
+            // tabPage5
+            // 
+            this.tabPage5.BackColor = System.Drawing.Color.LightCyan;
+            this.tabPage5.Location = new System.Drawing.Point(4, 33);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Size = new System.Drawing.Size(868, 328);
+            this.tabPage5.TabIndex = 4;
+            this.tabPage5.Text = "Data User";
+            // 
+            // tableLayoutPanel2
+            // 
+            this.tableLayoutPanel2.ColumnCount = 2;
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel2.Controls.Add(this.panelKecamatan, 0, 0);
+            this.tableLayoutPanel2.Controls.Add(this.panelKelurahan, 1, 0);
+            this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 3);
+            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+            this.tableLayoutPanel2.RowCount = 1;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(965, 391);
+            this.tableLayoutPanel2.TabIndex = 0;
+            // 
+            // panelKecamatan
+            // 
+            this.panelKecamatan.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelKecamatan.Location = new System.Drawing.Point(3, 3);
+            this.panelKecamatan.Name = "panelKecamatan";
+            this.panelKecamatan.Size = new System.Drawing.Size(425, 316);
+            this.panelKecamatan.TabIndex = 0;
+            // 
+            // panelKelurahan
+            // 
+            this.panelKelurahan.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelKelurahan.Location = new System.Drawing.Point(434, 3);
+            this.panelKelurahan.Name = "panelKelurahan";
+            this.panelKelurahan.Size = new System.Drawing.Size(425, 316);
+            this.panelKelurahan.TabIndex = 1;
             // 
             // dashboard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.panel6);
+            this.BackColor = System.Drawing.Color.LightCyan;
+            this.ClientSize = new System.Drawing.Size(979, 532);
+            this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.panel5);
-            this.Controls.Add(this.panel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "dashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form2";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.panel1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.Load += new System.EventHandler(this.dashboard_Load);
             this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.tabControl1.ResumeLayout(false);
+            this.tabPage2.ResumeLayout(false);
+            this.tableLayoutPanel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Timer timer2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Timer timer3;
-        private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.TabPage tabPage4;
+        private System.Windows.Forms.TabPage tabPage5;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
+        private System.Windows.Forms.Panel panelKecamatan;
+        private System.Windows.Forms.Panel panelKelurahan;
     }
 }

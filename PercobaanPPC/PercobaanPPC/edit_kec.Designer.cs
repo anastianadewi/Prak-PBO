@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tbName = new System.Windows.Forms.TextBox();
+            this.tbId = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -37,19 +37,19 @@
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textBox2
+            // tbName
             // 
-            this.textBox2.Location = new System.Drawing.Point(250, 110);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(517, 26);
-            this.textBox2.TabIndex = 10;
+            this.tbName.Location = new System.Drawing.Point(250, 110);
+            this.tbName.Name = "tbName";
+            this.tbName.Size = new System.Drawing.Size(517, 26);
+            this.tbName.TabIndex = 10;
             // 
-            // textBox1
+            // tbId
             // 
-            this.textBox1.Location = new System.Drawing.Point(250, 68);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(517, 26);
-            this.textBox1.TabIndex = 9;
+            this.tbId.Location = new System.Drawing.Point(250, 68);
+            this.tbId.Name = "tbId";
+            this.tbId.Size = new System.Drawing.Size(517, 26);
+            this.tbId.TabIndex = 9;
             // 
             // label3
             // 
@@ -89,6 +89,7 @@
             this.button3.TabIndex = 19;
             this.button3.Text = "Ubah";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button1
             // 
@@ -107,8 +108,8 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.tbName);
+            this.Controls.Add(this.tbId);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -120,8 +121,8 @@
         }
 
         #endregion
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox tbName;
+        private System.Windows.Forms.TextBox tbId;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;

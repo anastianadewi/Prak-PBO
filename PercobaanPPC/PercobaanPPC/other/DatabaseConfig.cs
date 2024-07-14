@@ -28,16 +28,16 @@ namespace PercobaanPPC.other
         {
             try
             {
-                if(conn.State == ConnectionState.Closed)
+                if (conn.State == ConnectionState.Closed)
                 {
                     conn.Open();
                 }
-            }catch(Exception e)
+            }
+            catch (Exception e)
             {
                 Console.WriteLine(e.ToString());
             }
         }
-
 
         void close()
         {
@@ -50,11 +50,19 @@ namespace PercobaanPPC.other
             int result = -1;
             try
             {
+                command.Connection = conn;
                 command.CommandText = query;
                 result = command.ExecuteNonQuery();
             }
-            catch (Exception e) { Console.WriteLine(e.Message); }
-            finally { close(); }
+            catch (Exception e)
+            {
+                Console.WriteLine($"Error executing query: {query}");
+                Console.WriteLine(e.Message);
+            }
+            finally
+            {
+                close();
+            }
             return result;
         }
 
@@ -69,9 +77,17 @@ namespace PercobaanPPC.other
                 dataAdapter.SelectCommand = command;
                 dataAdapter.Fill(result);
             }
-            catch (Exception e) { Console.WriteLine(e.Message); }
-            finally { close(); }
+            catch (Exception e)
+            {
+                Console.WriteLine($"Error executing query: {query}");
+                Console.WriteLine(e.Message);
+            }
+            finally
+            {
+                close();
+            }
             return result;
         }
+
     }
 }

@@ -1,4 +1,5 @@
 ﻿using PercobaanPPC;
+using PercobaanPPC.model;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,20 +14,24 @@ namespace WindowsFormsApp1
 {
     public partial class login : Form
     {
+        private UserModel userModel;
         public login()
         {
             InitializeComponent();
+            userModel = new UserModel();
         }
 
         //BUTTON LOGIN
         private void button1_Click(object sender, EventArgs e)
         {
-            //TEXTBOX1 USERNAME
-            //TEXTBOX2 PASSWORD
-            if (textBox1.Text == "anas" && textBox2.Text == "anas")
+            string username = textBox1.Text.Trim();
+            string password = textBox2.Text.Trim();
+
+            if (userModel.login(username, password))
             {
-                string username = textBox1.Text; // Simpan nama pengguna
-                dashboard tdashboard = new dashboard(username); // Teruskan nama pengguna ke dashboard
+                // Mengambil nama pengguna yang berhasil login
+                string loggedInUserName = userModel.Name;
+                dashboard tdashboard = new dashboard(loggedInUserName);
                 tdashboard.Show();
                 this.Hide();
             }
@@ -38,10 +43,18 @@ namespace WindowsFormsApp1
                 textBox1.Select();
                 textBox1.Focus();
             }
-        
+
 
         }
 
-       
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Yakin akan keluar dari aplikasi?",
+                "KONFIRMASI", MessageBoxButtons.YesNo,
+                MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+        }
     }
 }

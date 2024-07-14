@@ -36,14 +36,14 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tbName = new System.Windows.Forms.TextBox();
+            this.tbId = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tblPenyakit = new System.Windows.Forms.DataGridView();
-            this.c_id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.c_penyakit = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.tblPenyakit)).BeginInit();
             this.SuspendLayout();
             // 
@@ -54,6 +54,7 @@
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(814, 26);
             this.textBox6.TabIndex = 37;
+            this.textBox6.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
             // 
             // label7
             // 
@@ -74,6 +75,7 @@
             this.button3.TabIndex = 35;
             this.button3.Text = "Simpan";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -84,6 +86,7 @@
             this.button2.TabIndex = 34;
             this.button2.Text = "Hapus";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label6
             // 
@@ -121,22 +124,23 @@
             this.button1.TabIndex = 27;
             this.button1.Text = "Ubah";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBox2
+            // tbName
             // 
-            this.textBox2.Location = new System.Drawing.Point(213, 118);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(641, 26);
-            this.textBox2.TabIndex = 26;
+            this.tbName.Location = new System.Drawing.Point(213, 118);
+            this.tbName.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tbName.Name = "tbName";
+            this.tbName.Size = new System.Drawing.Size(641, 26);
+            this.tbName.TabIndex = 26;
             // 
-            // textBox1
+            // tbId
             // 
-            this.textBox1.Location = new System.Drawing.Point(213, 79);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(641, 26);
-            this.textBox1.TabIndex = 25;
+            this.tbId.Location = new System.Drawing.Point(213, 79);
+            this.tbId.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tbId.Name = "tbId";
+            this.tbId.Size = new System.Drawing.Size(641, 26);
+            this.tbId.TabIndex = 25;
             // 
             // label3
             // 
@@ -174,9 +178,9 @@
             this.tblPenyakit.AllowUserToDeleteRows = false;
             this.tblPenyakit.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.tblPenyakit.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.c_id,
-            this.c_penyakit});
-            this.tblPenyakit.Location = new System.Drawing.Point(26, 268);
+            this.id,
+            this.name});
+            this.tblPenyakit.Location = new System.Drawing.Point(39, 268);
             this.tblPenyakit.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tblPenyakit.Name = "tblPenyakit";
             this.tblPenyakit.ReadOnly = true;
@@ -184,24 +188,26 @@
             this.tblPenyakit.RowTemplate.Height = 24;
             this.tblPenyakit.Size = new System.Drawing.Size(814, 275);
             this.tblPenyakit.TabIndex = 38;
+            this.tblPenyakit.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.tblPenyakit_CellContentClick);
+            this.tblPenyakit.SelectionChanged += new System.EventHandler(this.tblPenyakit_SelectionChanged);
             // 
-            // c_id
+            // id
             // 
-            this.c_id.DataPropertyName = "id";
-            this.c_id.HeaderText = "ID";
-            this.c_id.MinimumWidth = 6;
-            this.c_id.Name = "c_id";
-            this.c_id.ReadOnly = true;
-            this.c_id.Width = 125;
+            this.id.DataPropertyName = "id";
+            this.id.HeaderText = "ID";
+            this.id.MinimumWidth = 6;
+            this.id.Name = "id";
+            this.id.ReadOnly = true;
+            this.id.Width = 125;
             // 
-            // c_penyakit
+            // name
             // 
-            this.c_penyakit.DataPropertyName = "name";
-            this.c_penyakit.HeaderText = "Nama Penyakit";
-            this.c_penyakit.MinimumWidth = 6;
-            this.c_penyakit.Name = "c_penyakit";
-            this.c_penyakit.ReadOnly = true;
-            this.c_penyakit.Width = 500;
+            this.name.DataPropertyName = "name";
+            this.name.HeaderText = "Nama Penyakit";
+            this.name.MinimumWidth = 6;
+            this.name.Name = "name";
+            this.name.ReadOnly = true;
+            this.name.Width = 500;
             // 
             // penyakit
             // 
@@ -217,8 +223,8 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.tbName);
+            this.Controls.Add(this.tbId);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -242,13 +248,13 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox tbName;
+        private System.Windows.Forms.TextBox tbId;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView tblPenyakit;
-        private System.Windows.Forms.DataGridViewTextBoxColumn c_id;
-        private System.Windows.Forms.DataGridViewTextBoxColumn c_penyakit;
+        private System.Windows.Forms.DataGridViewTextBoxColumn id;
+        private System.Windows.Forms.DataGridViewTextBoxColumn name;
     }
 }

@@ -13,6 +13,7 @@ namespace PercobaanPPC
 {
     public partial class splashscreen : Form
     {
+        int counter = 0;
         public splashscreen()
         {
             InitializeComponent();
@@ -20,8 +21,8 @@ namespace PercobaanPPC
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            flowLayoutPanel1.Width += 5;
-            if (flowLayoutPanel1.Width >= 801)
+            counter += 1;
+            if (counter >=3)
             {
                 timer1.Stop();
                 login fm2 = new login();

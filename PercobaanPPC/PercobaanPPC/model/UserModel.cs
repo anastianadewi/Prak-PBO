@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Drawing;
 using System.Linq;
 using System.Reflection.Emit;
 using System.Text;
@@ -13,9 +14,9 @@ namespace PercobaanPPC.model
     {
         private ulong id;
         private string name;
+        private DatabaseConfig con;
         private string username;
         private string password;
-        DatabaseConfig connection;
         DataTable tmp;
 
         string query;
@@ -27,7 +28,7 @@ namespace PercobaanPPC.model
             username = String.Empty;
             password = String.Empty;
 
-            connection = new DatabaseConfig();
+            con = new DatabaseConfig();
             tmp = new DataTable();
             query = String.Empty;
         }
@@ -59,20 +60,19 @@ namespace PercobaanPPC.model
         public int save()
         {
             int result = -1;
-            query = $"insert into user_tbl(name, username, password) values('{name}', '{username}', '{password}')";
+            query = $"insert into user_tbl(name, password, username) values('{name}', '{password}', '{username}')";
             try
             {
-                result = connection.exec(query);
+                result = con.exec(query);
                 if (result < 0)
                 {
-                    throw new Exception("Gagal menyimpan data");
+                    throw new Exception("Gagal menambahkan data");
                 }
             }
             catch (Exception e)
             {
                 Console.WriteLine(e.ToString());
             }
-
             return result;
         }
 
@@ -83,7 +83,7 @@ namespace PercobaanPPC.model
 
             try
             {
-                result = connection.exec(query);
+                result = con.exec(query);
                 if (result < 0)
                 {
                     throw new Exception("Gagal mengubah data");
@@ -93,14 +93,14 @@ namespace PercobaanPPC.model
             return result;
         }
 
-        public int delete()
+        public int delete(ulong id)
         {
             int result = -1;
             query = $"delete from user_tbl where id={id}";
 
             try
             {
-                result = connection.exec(query);
+                result = con.exec(query);
                 if (result < 0)
                 {
                     throw new Exception("Gagal menghapus data");
@@ -112,27 +112,35 @@ namespace PercobaanPPC.model
 
         public DataTable getAll()
         {
-            query = "select id, name, username from user_tbl";
-            tmp = connection.execQuery(query);
-            return tmp;
+            string query = "SELECT id, name, username, password FROM user_tbl";
+
+            return con.execQuery(query);
         }
 
-        public bool login()
+        public bool login(string username, string password)
         {
-            int result = -1;
             query = $"select id, name from user_tbl where username='{username}' and password='{password}'";
             try
             {
-                int user = connection.exec(query);
-                if(user < 0)
+                tmp = con.execQuery(query);
+                if (tmp.Rows.Count > 0)
                 {
-                    throw new Exception("Username dan password tidak ditemukan");
+                    id = Convert.ToUInt64(tmp.Rows[0]["id"]);
+                    name = tmp.Rows[0]["name"].ToString();
+                    return true;
                 }
-            }catch (Exception e)
-            {
-                Console.WriteLine (e.ToString());
             }
-            return result == -1;
+            catch (Exception e)
+            {
+                Console.WriteLine(e.ToString());
+            }
+            return false;
+        }
+
+        public DataTable findUserByName(string name)
+        {
+            query = $"select * from user_tbl where name like '%{name}%'";
+            return tmp = con.execQuery(query);
         }
     }
 }

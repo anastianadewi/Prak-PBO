@@ -3,6 +3,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Data;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,6 +13,7 @@ namespace PercobaanPPC.model
     internal class KelurahanModel
     {
         private ulong id;
+
         private string name;
         private ulong kecamatanId;
         private DatabaseConfig connection;
@@ -34,7 +36,7 @@ namespace PercobaanPPC.model
             set { id = value; }
             get { return id; }
         }
-        public string Name
+        public string Nama
         {
             set { name = value; }
             get { return name; }
@@ -49,7 +51,7 @@ namespace PercobaanPPC.model
         public int save()
         {
             int result = -1;
-            query = $"insert into kelurahan_tbl(name, kecamatan_id) values('{name}', {kecamatanId})";
+            query = $"insert into kelurahan_tbl(name) values('{name}')";
             try
             {
                 result = connection.exec(query);
@@ -60,7 +62,7 @@ namespace PercobaanPPC.model
             }
             catch (Exception e)
             {
-                Console.WriteLine(e.ToString());
+                Console.WriteLine($"Error: {e.Message}"); // Logging error
             }
 
             return result;
@@ -69,21 +71,25 @@ namespace PercobaanPPC.model
         public int update()
         {
             int result = -1;
-            query = $"update kelurahan_tbl set name = '{name}', kecamatan_id = {kecamatanId} where id={id}";
+            query = $"update kelurahan_tbl set name = '{name}' where id={id}";
 
             try
             {
+                Console.WriteLine($"Executing query: {query}"); // Logging query
                 result = connection.exec(query);
                 if (result < 0)
                 {
                     throw new Exception("Gagal mengubah data");
                 }
             }
-            catch (Exception e) { Console.WriteLine(e.Message); }
+            catch (Exception e)
+            {
+                Console.WriteLine($"Error: {e.Message}"); // Logging error
+            }
             return result;
         }
 
-        public int delete()
+        public int delete(ulong id)
         {
             int result = -1;
             query = $"delete from kelurahan_tbl where id={id}";
@@ -109,8 +115,13 @@ namespace PercobaanPPC.model
         public DataTable getAll()
         {
             query = "select id, name from kelurahan_tbl";
-            tmp = connection.execQuery(query);
-            return tmp;
+            return connection.execQuery(query);
+        }
+
+        public DataTable getKelurahanByName(string name)
+        {
+            query = $"select id, name from kelurahan_tbl where name like '%{name}%'";
+            return connection.execQuery(query);
         }
     }
 }

@@ -23,17 +23,6 @@ namespace PercobaanPPC
             label1.Text = "Selamat datang, " + username; // Menampilkan nama pengguna di label
         }
 
-
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            geser += 5;
-            if(geser >= 1200)
-            {
-                geser = -400;
-            }
-            label2.Left = geser;
-        }
-
         private void timer2_Tick(object sender, EventArgs e)
         {
             label3.Text = DateTime.Now.ToLongTimeString();
@@ -49,30 +38,27 @@ namespace PercobaanPPC
             label4.Text = DateTime.Now.ToLongDateString();
         }
 
-        //DASHBOARD
-        private void button1_Click(object sender, EventArgs e)
+        private void dashboard_Load(object sender, EventArgs e)
         {
+            //Dashboard
             tdashboard dashboard = new tdashboard();
             dashboard.TopLevel = false;
-            panel6.Controls.Clear();
-            panel6.Controls.Add(dashboard);
+            tabPage1.Controls.Add(dashboard);
             dashboard.Show();
             dashboard.FormBorderStyle = FormBorderStyle.None;
-        }
 
-        //WILAYAH
-        private void button2_Click(object sender, EventArgs e)
-        {
+            //Wilayah
             // Membuat instance form tkecamatan
             tkecamatan kecamatan = new tkecamatan();
             kecamatan.TopLevel = false;
             kecamatan.FormBorderStyle = FormBorderStyle.None;
+            kecamatan.Dock = DockStyle.Fill;
 
             // Membersihkan panel sebelum menambahkan form tkecamatan
-            panel6.Controls.Clear();
+            panelKecamatan.Controls.Clear();
 
             // Menambahkan form tkecamatan ke panel
-            panel6.Controls.Add(kecamatan);
+            panelKecamatan.Controls.Add(kecamatan);
 
             // Menampilkan form tkecamatan
             kecamatan.Show();
@@ -84,61 +70,46 @@ namespace PercobaanPPC
             tkelurahan kelurahan = new tkelurahan();
             kelurahan.TopLevel = false;
             kelurahan.FormBorderStyle = FormBorderStyle.None;
+            kelurahan.Dock = DockStyle.Fill;
+            panelKelurahan.Controls.Clear();
 
             // Menambahkan form tkelurahan ke panel
-            panel6.Controls.Add(kelurahan);
+            panelKelurahan.Controls.Add(kelurahan);
 
             // Menampilkan form tkelurahan
             kelurahan.Show();
 
-            // Mengatur posisi form tkelurahan di dalam panel
-            kelurahan.Location = new Point(kecamatan.Width, 0);// Sesuaikan dengan posisi yang diinginkan
-        }
 
+            //Rekap
+            rekap_penyakit trekap = new rekap_penyakit();
+            trekap.TopLevel = false;
+            tabPage4.Controls.Clear();
+            tabPage4.Controls.Add(trekap);
+            trekap.Show();
+            trekap.FormBorderStyle = FormBorderStyle.None;
 
-
-        //USER
-        private void button5_Click(object sender, EventArgs e)
-        {
-            user tuser = new user();
-            tuser.TopLevel = false;
-            panel6.Controls.Clear();
-            panel6.Controls.Add(tuser);
-            tuser.Show();
-            tuser.FormBorderStyle = FormBorderStyle.None;
-        }
-
-        //DATA PENYAKIT
-        private void button3_Click(object sender, EventArgs e)
-        {
+            //Penyakit
             // Membuat instance form penyakit
             penyakit tpenyakit = new penyakit();
             tpenyakit.TopLevel = false;
             tpenyakit.FormBorderStyle = FormBorderStyle.None;
 
             // Membersihkan panel sebelum menambahkan form penyakit
-            panel6.Controls.Clear();
+            tabPage3.Controls.Clear();
 
             // Menambahkan form penyakit ke panel
-            panel6.Controls.Add(tpenyakit);
+            tabPage3.Controls.Add(tpenyakit);
 
             // Menampilkan form penyakit
             tpenyakit.Show();
 
-
+            //User
+            user tuser = new user();
+            tuser.TopLevel = false;
+            tabPage5.Controls.Clear();
+            tabPage5.Controls.Add(tuser);
+            tuser.Show();
+            tuser.FormBorderStyle = FormBorderStyle.None;
         }
-
-        //REKAP PENYAKIT
-        private void button4_Click(object sender, EventArgs e)
-        {
-            rekap_penyakit trekap = new rekap_penyakit();
-            trekap.TopLevel = false;
-            panel6.Controls.Clear();
-            panel6.Controls.Add(trekap);
-            trekap.Show();
-            trekap.FormBorderStyle = FormBorderStyle.None;
-        }
-
-        
     }
 }
